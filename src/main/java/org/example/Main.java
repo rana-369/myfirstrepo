@@ -8,8 +8,14 @@ public class Main {
         student.name = "Deepak Rana";
         student.rollno = 8;
         System.out.println(student);
-       student.walk();
+        student.walk();
+
+        Student.Dog dog = new Student.Dog("Luffy", "Samoyed");
 
 
-    }
-}
+        System.out.println(dog);
+        dog.bark();
+
+
+                }
+            }

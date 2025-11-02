@@ -1,16 +1,37 @@
 package org.example;
 
-public class Student {String name;
+public class Student{String name;
     int rollno;
     Student(){}
-    Student(String name,int rollno ){
+    Student(String name,int rollno){
         this.name=name;
         this.rollno=rollno;
     }
-    Dog(String name,)
-    public void walk() {
-        System.out.println("I can walk");
+    public void walk(){
+        System.out.println(" I am walking");
     }
+
+public static class Dog {String name;
+    String breed;
+
+    public Dog(String name ,String breed){
+        this.name=name;
+        this.breed=breed;
+    }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                '}';
+    }
+
+    public void bark(){
+        System.out.println(" Dog is barking");
+    }
+    }
+
     @Override
     public String toString() {
         return "Student{" +
