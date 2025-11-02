@@ -10,7 +10,7 @@ public class Main {
         System.out.println(student);
         student.walk();
 
-        Student.Dog dog = new Student.Dog("Luffy", "Samoyed");
+        Student.Dog dog = student.new Dog("Luffy", "Samoyed");
 
 
         System.out.println(dog);

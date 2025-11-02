@@ -10,13 +10,11 @@ public class Student{String name;
     public void walk(){
         System.out.println(" I am walking");
     }
-
-public static class Dog {String name;
-    String breed;
-
-    public Dog(String name ,String breed){
-        this.name=name;
-        this.breed=breed;
+    class Dog { String name;
+        String breed;
+        public Dog(String name ,String breed){
+            this.name=name;
+            this.breed= breed;
     }
 
     @Override
